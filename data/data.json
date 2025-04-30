@@ -1,0 +1,29 @@
+{
+    "caps": [
+      {
+        "id": 1,
+        "name": "Damanga",
+        "price": 20,
+        "image": "/caps/cap1.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Zanna Bukar",
+        "price": 25,
+        "image": "/caps/cap2.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Kuwaitshi",
+        "price": 35,
+        "image": "/caps/cap3.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Zanna",
+        "price": 45,
+        "image": "/caps/cap4.jpg"
+      }
+    ]
+  }
+  

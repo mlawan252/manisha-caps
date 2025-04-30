@@ -5,7 +5,7 @@ const server = create();
 const router = _router('data.json');
 const middlewares = defaults();
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 
 server.use(middlewares);
 server.use(router);

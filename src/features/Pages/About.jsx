@@ -1,6 +1,8 @@
+import Header from "../ui/Header";
+
 function About(){
     return(
-        <h1>About Page</h1>
+        <Header />
     )
 }
 export default About;

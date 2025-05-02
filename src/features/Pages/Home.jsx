@@ -1,14 +1,16 @@
+import { useLoaderData } from "react-router-dom";
 import Menu from "../menu/Menu";
+import Header from "../ui/Header";
+import Hero from "../ui/Hero";
 
-
-function Home(){
-    
-    
-    return(
-        <div>
-            <h1>Home Page</h1>
-            <Menu />
-        </div>
-    )
+function Home() {
+  const caps = useLoaderData();
+  return (
+    <div>
+      <Header />
+      <Hero />
+      <Menu caps={caps} />
+    </div>
+  );
 }
 export default Home;

@@ -1,6 +1,14 @@
+import { Form } from "react-router-dom";
+import Header from "../ui/Header";
+
 function Contact(){
     return(
-        <h1>Contact Page</h1>
+        <div>
+            <Header />
+            <Form>
+                Contact Us
+            </Form>
+        </div>
     )
 }
 export default Contact;

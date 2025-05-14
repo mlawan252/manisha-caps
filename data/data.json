@@ -3,26 +3,30 @@
       {
         "id": 1,
         "name": "Damanga",
-        "price": 20,
+        "unitPrice": 2000,
         "image": "/caps/cap1.jpg"
+        
       },
       {
         "id": 2,
         "name": "Zanna Bukar",
-        "price": 25,
+        "unitPrice": 25000,
         "image": "/caps/cap2.jpg"
+        
       },
       {
         "id": 3,
         "name": "Kuwaitshi",
-        "price": 35,
+        "unitPrice":35000,
         "image": "/caps/cap3.jpg"
+        
       },
       {
         "id": 4,
         "name": "Zanna",
-        "price": 45,
+        "unitPrice": 45000,
         "image": "/caps/cap4.jpg"
+        
       }
     ]
   }

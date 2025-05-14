@@ -12,7 +12,7 @@ function MenuItem({ cap }) {
     return cart.some((item) => item.id === id);
   }, [cart, id]);
  
-  const handleAddCap = useCallback(() => {
+  function handleAddCap(){
     const newCap = {
       id,
       name,
@@ -22,8 +22,7 @@ function MenuItem({ cap }) {
       image,
     };
     inCart ? dispatch(removeItem(id)) : dispatch(add(newCap));
-  }, [id, name, unitPrice, image, dispatch, inCart]);
-  
+  } 
   return (
     <li
       className={`border-b border-stone-200 border px-4 py-2 rounded-2xl basis-full sm:basis-auto bg-slate-50 shadow-md ${
